@@ -1,0 +1,162 @@
+body {
+  background-color: white;
+}
+
+.headline {
+  margin-left: 100px;
+  color: black;
+  font-size: 37px;
+  align: center;
+  margin-left: 280px;
+  margin-right:250px;
+  padding-bottom: 20px;
+}
+
+byline {
+  padding: 0.5em;
+  margin-left: 300px;
+  margin-right: 225px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+h1 {
+
+  color: #052962;
+  font-size: 70px;
+  padding-left: 30px;
+  height: 50px;
+  width: auto;
+  text-align: center;
+
+
+}
+
+h2 {
+
+  margin-left: 450px;
+  margin-right:450px;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  padding: 2px;
+  font-size: 30px;
+  color: black;
+
+
+}
+
+h3 {
+  margin-left: 200px;
+  margin-right:200px;
+  color: #052962;
+  font-size: 27px;
+  font-style: italic;
+
+
+}
+
+h4 {
+  margin-left: 225px;
+  margin-right:200px;
+  text-align: left;
+  text-decoration: underline;
+  font-size: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h5{
+  margin-left: 250px;
+  margin-right:200px;
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+img {
+  width: 40%;
+  height: auto;
+  width: 600px;
+  align: center;
+  margin-left: 280px;
+  margin-right: 225px;
+
+}
+
+figcaption {
+  padding: 0.5em;
+  margin-left: 300px;
+  margin-right: 225px;
+  font-style: italic;
+  font-size: 15px;
+
+}
+
+
+p {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #052962;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  border-style: solid;
+  border-width: thin;
+
+}
+
+ul {
+
+  background-color: #052962;
+  margin-left: 100px;
+  margin-right:100px;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+
+}
+
+
+li {
+
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 10px 20px;
+
+}
+
+
+/* unvisited link */
+a:link {
+  color: gray;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+	text-decoration: underline;
+}
